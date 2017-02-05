@@ -13,12 +13,14 @@
 
 class Filter{
 	public:
-		Filter(UltrasonicSensor sensor);
+		Filter(UltrasonicSensor *sensor);
 		void readNext();
 		int filterData();
 		void calculateDelta();
+		int getReading(int i);
+		int getDelta();
 	private:
-		UltrasonicSensor sensor;
+		UltrasonicSensor *sensor;
 		int readings[20];
 		int reads;
 		int delta;

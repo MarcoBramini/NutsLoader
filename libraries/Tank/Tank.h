@@ -14,7 +14,7 @@
 
 class Tank{
 	public:
-		Tank(Filter filter, UltrasonicSensor sensor, int min, int max, LiquidCrystal_I2C *display);
+		Tank(Filter *filter, UltrasonicSensor *sensor, int min, int max, LiquidCrystal_I2C *display);
 		int getLevel();
 		void setLevel(int level);
 		void updateLevel();
@@ -23,9 +23,9 @@ class Tank{
 		int getMin();
 		int getMax();
 	private:
-		int level, min, max, range;
-		UltrasonicSensor sensor;
-		Filter filter;
+		double level, min, max, range;
+		UltrasonicSensor *sensor;
+		Filter *filter;
 		LiquidCrystal_I2C *display;
 };
 

@@ -12,7 +12,7 @@ UltrasonicSensor::UltrasonicSensor(int trig, int echo){
 	this->trig = trig;
 	pinMode(this->trig, OUTPUT);
 	this->echo = echo;
-	pinMode(this->echo, INPUT);
+	pinMode(this->echo, INPUT_PULLUP);
 }
 
 void UltrasonicSensor::trigger(){

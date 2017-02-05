@@ -7,8 +7,9 @@
 
 #include "Arduino.h"
 #include "Tank.h"
+#include  "Filter.h"
 
-Tank::Tank(Filter filter, UltrasonicSensor sensor, int min, int max, LiquidCrystal_I2C *l){
+Tank::Tank(Filter *filter, UltrasonicSensor *sensor, int min, int max, LiquidCrystal_I2C *l){
 	this->level = 0;
 	this->filter = filter;
 	this->sensor = sensor;
@@ -27,7 +28,7 @@ int Tank::getLevel(){
 }
 
 void Tank::updateLevel(){
-	int value = filter.filterData();
+	int value = filter->filterData();
 	int normVal = min - value ;
 	this->level = (normVal/this->range)*100;
 }
