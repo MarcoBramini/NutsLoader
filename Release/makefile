@@ -59,7 +59,7 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 AR += \
-C:/Users/brami/workspaceArduino/NutsLoader/Release/arduino.ar \
+C:/Users/Marco/workspaceArduino/NutsLoader/Release/arduino.ar \
 
 ELF += \
 NutsLoader.elf \
@@ -75,19 +75,19 @@ all: NutsLoader
 NutsLoader: $(HEX)
 	@echo 'Building target: $@'
 	@echo 'Printing size:'
-	"C:\Users\brami\Desktop\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-size" -A "C:/Users/brami/workspaceArduino/NutsLoader/Release/NutsLoader.elf"
+	"C:\Users\Marco\Desktop\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-size" -A "C:/Users/Marco/workspaceArduino/NutsLoader/Release/NutsLoader.elf"
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-C:/Users/brami/workspaceArduino/NutsLoader/Release/arduino.ar: $(AR_OBJ)
+C:/Users/Marco/workspaceArduino/NutsLoader/Release/arduino.ar: $(AR_OBJ)
 	@echo 'Starting archiver'
-	"C:\Users\brami\Desktop\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc-ar" rcs    C:/Users/brami/workspaceArduino/NutsLoader/Release/arduino.ar $(AR_OBJ)
+	"C:\Users\Marco\Desktop\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc-ar" rcs    C:/Users/Marco/workspaceArduino/NutsLoader/Release/arduino.ar $(AR_OBJ)
 	@echo 'Finished building: $@'
 	@echo ' '
 
 NutsLoader.elf: $(LINK_OBJ) $(AR)
 	@echo 'Starting combiner'
-	"C:\Users\brami\Desktop\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\brami\workspaceArduino\NutsLoader/Release/NutsLoader.elf"   $(LINK_OBJ) $(AR)   C:/Users/brami/workspaceArduino/NutsLoader/Release/arduino.ar  "-LC:\Users\brami\workspaceArduino\NutsLoader/Release" -lm
+	"C:\Users\Marco\Desktop\sloeber\/arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\Marco\workspaceArduino\NutsLoader/Release/NutsLoader.elf"   $(LINK_OBJ) $(AR)   C:/Users/Marco/workspaceArduino/NutsLoader/Release/arduino.ar  "-LC:\Users\Marco\workspaceArduino\NutsLoader/Release" -lm
 	@echo 'Finished building: $@'
 	@echo ' '
 

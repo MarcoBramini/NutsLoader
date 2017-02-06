@@ -58,9 +58,30 @@ void setup(){
 	display.setCursor(13,3);
 	display.print(loader.getQty());
 	motor.disable();
+	Serial.begin(9600);
 }
 
 void loop(){
 
+	timer.refresh();
+	timer.printDisplay(&display);
+	filter.refresh();
+	tank.updateLevel();
+	loader.refill();
+	loader.print(&display);
+
+
+	if(Serial.available()){
+		int r = Serial.parseInt();
+		if(r==1){
+			timer.stop();
+		}
+		if(r==2){
+			timer.start();
+		}
+		if(r==3){
+			timer.pause();
+		}
+	}
 
 }
