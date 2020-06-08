@@ -1,0 +1,14 @@
+POST http://localhost:8080/nutsify/rest/commands HTTP/1.1
+Content-Type: application/json
+
+{
+    "requestID": "35594fc5-6a21-4e8e-b814-5332dd83bca4",
+    "clientID": "1",
+    "commandType": "LEV",
+    "result": {
+        "level": 100
+    },
+    "error": ""
+}
+
+###

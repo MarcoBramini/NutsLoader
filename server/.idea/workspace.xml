@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd26534f-9f28-4f8f-a0ea-4811e55a8ef7" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.5/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1czJ7KEFHnuREHajkmjvBkGyiZn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;  &quot;method&quot;: &quot;Serv.Say&quot;,&#10;  &quot;params&quot;: {&#10;    &quot;who&quot;: &quot;me&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;  &quot;method&quot;: &quot;Serv.Say&quot;,&#10;  &quot;params&quot;: {&#10;  &quot;dog&quot;: &quot;yes&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;  &quot;method&quot;: &quot;Serv.Say&quot;,&#10;  &quot;params&quot;: {}&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: &quot;ciao&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:80/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: &quot;ciao&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:80/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: &quot;ciao&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:80/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: {&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: {&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: null&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: {}&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#10;    &quot;method&quot;: &quot;Test.Say&quot;,&#10;    &quot;params&quot;: {&#10;        &quot;clientID&quot;:&quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;:&quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.Say&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.GetFuelLevel&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.GetFuelLevel&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://marcobramini.dev:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.GetFuelLevel&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://marcobramini.dev:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.GetFuelLevel&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;clientID&quot;:1&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;who&quot;:&quot;me&quot;}&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/rpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{&#10;    &quot;who&quot;:&quot;me&quot;}&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/rpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/rpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{}&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/rpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Say&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/rpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Hello&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/rpc/" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Hello&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Test.Hello&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.Hello&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/nutsify/rest/commands" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;requestID&quot;: &quot;35594fc5-6a21-4e8e-b814-5332dd83bca4&quot;,&#10;    &quot;clientID&quot;: &quot;1&quot;,&#10;    &quot;commandType&quot;: &quot;LEV&quot;,&#10;    &quot;result&quot;: {&#10;        &quot;level&quot;: 100&#10;    },&#10;    &quot;error&quot;: &quot;&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/client/jsonrpc" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.GetFuelLevel&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;id&quot;: 1,&#10;    &quot;jsonrpc&quot;:&quot;2.0&quot;,&#10;    &quot;method&quot;:&quot;Nutsify.GetFuelLevel&quot;,&#10;    &quot;params&quot;:{&#10;        &quot;clientID&quot;: &quot;1&quot;&#10;    }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.GetFuelLevel#1">
+    <configuration name="go build http_server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="server" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/entrypoint/http_server.go" />
+      <directory value="$PROJECT_DIR$/entrypoint" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetFuelLevel#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples/GetFuelLevel.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.GetFuelLevel#1" />
+        <item itemvalue="Go Build.go build http_server.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="334" key="#Go_Modules" timestamp="1591525355793">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state x="640" y="334" key="#Go_Modules/0.23.1680.942@0.23.1680.942" timestamp="1591525355793" />
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591528193545">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.942@0.23.1680.942" timestamp="1591528193545" />
+    <state x="573" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591527736406">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state x="573" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.942@0.23.1680.942" timestamp="1591527736406" />
+    <state x="492" y="279" key="EditFileWatcherDialog" timestamp="1591527688664">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state x="492" y="279" key="EditFileWatcherDialog/0.23.1680.942@0.23.1680.942" timestamp="1591527688664" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1591528383286">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.942@0.23.1680.942" timestamp="1591528383286" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1591528383285">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.942@0.23.1680.942" timestamp="1591528383285" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1591528383285">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.942@0.23.1680.942" timestamp="1591528383285" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1591528383286">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.942@0.23.1680.942" timestamp="1591528383286" />
+    <state x="341" y="133" key="SettingsEditor" timestamp="1591527691474">
+      <screen x="0" y="23" width="1680" height="942" />
+    </state>
+    <state x="341" y="133" key="SettingsEditor/0.23.1680.942@0.23.1680.942" timestamp="1591527691474" />
+  </component>
+</project>

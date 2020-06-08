@@ -1,0 +1,757 @@
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {
+    "who": "me"
+  }
+}
+
+<> 2020-06-07T011303.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {
+    "who": "me"
+  }
+}
+
+<> 2020-06-07T011247.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {
+    "who": "me"
+  }
+}
+
+<> 2020-06-07T011231.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {
+  "dog": "yes"
+  }
+}
+
+<> 2020-06-07T011151.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {}
+}
+
+<> 2020-06-07T011135.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {}
+}
+
+<> 2020-06-07T011122.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "Serv.Say",
+  "params": {}
+}
+
+<> 2020-06-07T011114.400.json
+
+###
+
+POST http://localhost/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": "ciao"
+}
+
+<> 2020-06-07T011023.400.json
+
+###
+
+POST http://localhost:80/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": "ciao"
+}
+
+<> 2020-06-07T011007.400.json
+
+###
+
+POST http://localhost:80/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "method": "Test.Say",
+    "params": "ciao"
+}
+
+<> 2020-06-07T010809.400.json
+
+###
+
+POST http://localhost:80/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": "ciao"
+}
+
+<> 2020-06-07T010412.400.json
+
+###
+
+POST http://localhost:80/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {
+    }
+}
+
+<> 2020-06-07T010400.400.json
+
+###
+
+POST http://localhost:80/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {
+    }
+}
+
+<> 2020-06-07T010308.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {
+    }
+}
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {
+    }
+}
+
+<> 2020-06-07T122506.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": null
+}
+
+<> 2020-06-07T122458.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say"
+}
+
+<> 2020-06-07T122441.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type: application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {}
+}
+
+<> 2020-06-07T122414.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {}
+}
+
+<> 2020-06-07T122005.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {}
+}
+
+<> 2020-06-07T122002.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {}
+}
+
+<> 2020-06-07T121937.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {
+        "clientID":"1"
+    }
+}
+
+<> 2020-06-07T121826.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "Test.Say",
+    "params": {
+        "clientID":"1"
+    }
+}
+
+<> 2020-06-07T121557.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+        "clientID":"1"
+    }
+}
+
+<> 2020-06-07T121547.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+        "clientID":"1"
+    }
+}
+
+<> 2020-06-07T121457.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+        "clientID":1
+    }
+}
+
+<> 2020-06-07T121442.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121344.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121327.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121222.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121155.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.Say",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121150.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.GetFuelLevel",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121141.400.json
+
+###
+
+POST http://localhost:8080
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.GetFuelLevel",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-07T121117.404.txt
+
+###
+
+POST http://marcobramini.dev:8080
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.GetFuelLevel",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-06T031432.404.txt
+
+###
+
+POST http://marcobramini.dev:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.GetFuelLevel",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-06T031422.404.txt
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.GetFuelLevel",
+    "params":{
+    "clientID":1
+    }
+}
+
+<> 2020-06-06T031317.400.json
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "who":"me"}
+}
+
+<> 2020-06-06T031244.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "who":"me"}
+}
+
+<> 2020-06-06T031236.404.txt
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+    "who":"me"}
+}
+
+<> 2020-06-06T031022.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{}
+}
+
+<> 2020-06-06T030957.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{}
+}
+
+<> 2020-06-06T030915.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{}
+}
+
+<> 2020-06-06T030910.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030901.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Say",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030814.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Hello",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030711.400.json
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Hello",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030435.400.txt
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Hello",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030430.404.txt
+
+###
+
+POST http://localhost:8080/rpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Hello",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030427.400.txt
+
+###
+
+POST http://localhost:8080
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Test.Hello",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030417.404.txt
+
+###
+
+POST http://localhost:8080/client/jsonrpc
+Content-Type:application/json
+
+{
+    "id": 1,
+    "jsonrpc":"2.0",
+    "method":"Nutsify.Hello",
+    "params":{
+        "clientID": "1"
+    }
+}
+
+<> 2020-06-06T030053.400.txt
+
+###
+
