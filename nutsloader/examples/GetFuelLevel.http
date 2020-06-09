@@ -1,0 +1,13 @@
+POST http://localhost/client/rpc HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "NutsLoader.GetFuelLevel",
+  "params": {
+    "clientID": "1"
+  }
+}
+
+###
