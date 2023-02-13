@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NutsloaderService",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NutsloaderService::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NutsloaderService-Debug-30652aede9880c88086b.json",
+					"name" : "NutsloaderService",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NutsloaderService-size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NutsloaderService-size-Debug-e736fd1cc1ddcaa9f295.json",
+					"name" : "NutsloaderService-size",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_CORE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_CORE-Debug-37755940ef234df46f03.json",
+					"name" : "uno_CORE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_NewPing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_NewPing-Debug-30a96094333aab23c14b.json",
+					"name" : "uno_NewPing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_NutsloaderService::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_NutsloaderService-Debug-d2fa1e52b39be6fd9e4d.json",
+					"name" : "uno_NutsloaderService",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_TimerSwitch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_TimerSwitch-Debug-03257075feb51908d935.json",
+					"name" : "uno_TimerSwitch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug",
+		"source" : "/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,8 @@
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/NutsloaderService-size.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/uno_CORE.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/NutsloaderService.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/uno_TimerSwitch.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/uno_NewPing.dir
+/Users/marcobramini/Documents/Arduino/libraries/NutsloaderService/cmake-build-debug/CMakeFiles/uno_NutsloaderService.dir
