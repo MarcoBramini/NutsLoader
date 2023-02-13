@@ -1,3 +1,0 @@
-{
-    "cmake.sourceDirectory": "${workspaceFolder}/libraries/ArduinoJson/extras/tests/MsgPackDeserializer"
-}
