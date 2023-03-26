@@ -1,4 +1,5 @@
 #include <ArduinoJson.h>
+#include <ArduinoOTA.h>
 #include <NewPing.h>
 #include <NutsloaderService.h>
 #include <PubSubClient.h>
@@ -10,7 +11,7 @@ const uint levelSonarEchoPin = 12;
 const uint levelSonarTriggerPin = 14;
 
 NewPing levelSonar(levelSonarTriggerPin, levelSonarEchoPin, 400);
-TimerSwitch cochleaSwitch(cochleaSwitchPin, 300000);
+TimerSwitch cochleaSwitch(cochleaSwitchPin, 600000);
 
 NutsloaderService
     nutsloaderService(&levelSonar, &cochleaSwitch, 100, 20, 100, 75, 15000);
@@ -57,6 +58,16 @@ void setup() {
     Serial.print(".");
   }
 
+  // Initialize OTA
+  ArduinoOTA.begin();
+  ArduinoOTA.setHostname("nutsloader-ota");
+  ArduinoOTA.setPassword("<removed>");
+
+  // Set up OTA event handlers
+  ArduinoOTA.onStart(onOTAStart);
+  ArduinoOTA.onProgress(onOTAProgress);
+  ArduinoOTA.onEnd(onOTAEnd);
+
   Serial.println(WiFi.getAutoReconnect());
   Serial.println("");
   Serial.println("WiFi connected");
@@ -76,6 +87,8 @@ void loop() {
     ESP.restart();
   }
 
+  ArduinoOTA.handle();
+
   if (!mqttClient.connected()) {
     onDisconnected();
     return;
@@ -92,6 +105,22 @@ void loop() {
   }
 
   delay(50);
+}
+
+void onOTAStart() {
+  // Turn off the cochlea just to be safe
+  nutsloaderService.stopFill();
+
+  Serial.println("OTA update starting...");
+}
+
+void onOTAProgress(unsigned int progress, unsigned int total) {
+  Serial.printf("Progress: %u%%\r", (progress / (total / 100)));
+}
+
+void onOTAEnd() {
+  Serial.println("\nOTA update complete!");
+  ESP.restart();
 }
 
 void onMessageReceived(char* topic, byte* payload, unsigned int length) {
