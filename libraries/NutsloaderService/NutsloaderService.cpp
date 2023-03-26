@@ -29,7 +29,7 @@ bool NutsloaderService::isCochleaObstructed() const {
 }
 
 int16_t NutsloaderService::readLevelFromSonar() {
-  uint16_t levelCm = NewPing::convert_cm(sonar->ping_median(100));
+  uint16_t levelCm = NewPing::convert_cm(sonar->ping_median(20));
   int16_t level =
       (minLevelCm - (double)levelCm) / (minLevelCm - maxLevelCm) * 100;
   return level;
