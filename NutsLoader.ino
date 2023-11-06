@@ -42,6 +42,7 @@ const char* deviceErrorIndicatorStateTopic =
     "homeassistant/binary_sensor/nutsloader_error_indicator/state";
 const char* deviceSwitchCommandTopic =
     "homeassistant/switch/nutsloader_switch/set";
+const char* homeAssistantStatusTopic = "homeassistant/status";
 
 WiFiClient wifiClient;
 PubSubClient mqttClient(wifiClient);
@@ -77,6 +78,7 @@ void setup() {
   mqttClient.setServer(mqttServer, 1883);
   mqttClient.setCallback(onMessageReceived);
   mqttClient.setBufferSize(1024);
+  mqttClient.setCallback(subscriptionsCallback);
 }
 
 long lastUpdateMillis = 0;
@@ -104,7 +106,14 @@ void loop() {
     lastUpdateMillis = timeNow;
   }
 
+  mqttClient.loop();
   delay(50);
+}
+
+void subscriptionsCallback(char* topic, byte* payload, unsigned int length) {
+  if (strcmp(topic, homeAssistantStatusTopic) == 0){
+    publishDiscoveryConfigs();
+  }
 }
 
 void onOTAStart() {
@@ -162,6 +171,9 @@ void onDisconnected() {
 
   // Publish states
   publishStateUpdates();
+
+  // Subscribe to HA status topic
+  mqttClient.subscribe(homeAssistantStatusTopic);
 }
 
 void subscribeAllTopics() {
