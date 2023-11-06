@@ -14,7 +14,7 @@ NewPing levelSonar(levelSonarTriggerPin, levelSonarEchoPin, 400);
 TimerSwitch cochleaSwitch(cochleaSwitchPin, 600000);
 
 NutsloaderService
-    nutsloaderService(&levelSonar, &cochleaSwitch, 100, 20, 100, 75, 15000);
+    nutsloaderService(&levelSonar, &cochleaSwitch, 100, 20, 100, 75, 30000);
 
 const char* ssid = "Home_WiFi";
 const char* password = "<removed>";
@@ -78,7 +78,6 @@ void setup() {
   mqttClient.setServer(mqttServer, 1883);
   mqttClient.setCallback(onMessageReceived);
   mqttClient.setBufferSize(1024);
-  mqttClient.setCallback(subscriptionsCallback);
 }
 
 long lastUpdateMillis = 0;
@@ -106,14 +105,7 @@ void loop() {
     lastUpdateMillis = timeNow;
   }
 
-  mqttClient.loop();
   delay(50);
-}
-
-void subscriptionsCallback(char* topic, byte* payload, unsigned int length) {
-  if (strcmp(topic, homeAssistantStatusTopic) == 0){
-    publishDiscoveryConfigs();
-  }
 }
 
 void onOTAStart() {
@@ -133,6 +125,10 @@ void onOTAEnd() {
 }
 
 void onMessageReceived(char* topic, byte* payload, unsigned int length) {
+  if (strcmp(topic, homeAssistantStatusTopic) == 0){
+    publishDiscoveryConfigs();
+    return;
+  }
   if (strcmp(deviceSwitchCommandTopic, topic) == 0) {
     // Convert payload to chars array
     payload[length] = NULL;
@@ -144,6 +140,7 @@ void onMessageReceived(char* topic, byte* payload, unsigned int length) {
     } else {
       nutsloaderService.stopFill();
     }
+    return;
   }
 }
 
@@ -171,12 +168,10 @@ void onDisconnected() {
 
   // Publish states
   publishStateUpdates();
-
-  // Subscribe to HA status topic
-  mqttClient.subscribe(homeAssistantStatusTopic);
 }
 
 void subscribeAllTopics() {
+  mqttClient.subscribe(homeAssistantStatusTopic);
   mqttClient.subscribe(deviceSwitchCommandTopic);
 }
 
